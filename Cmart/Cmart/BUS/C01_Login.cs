@@ -4,27 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
+using System.Data;
 namespace Cmart.BUS
 {
     class C01_Login
     {
-        public bool RequireLogin(TextBox username, TextBox pass)
+        CMART1Entities db;
+        Account account;
+        string userName;
+        string passWord;
+        private string[] position = { "President", "Inspector", "Staff", "Branch", "Secretary" };
+        public C01_Login(string userName,string passWord)
         {
-            string a = username.Text.ToString();
-            string b = pass.Text.ToString();
-            if ((string.IsNullOrEmpty(a) || string.IsNullOrWhiteSpace(a)) 
-                && (string.IsNullOrEmpty(b) || string.IsNullOrWhiteSpace(b)))
-                return false;
-            else
-                return true;
+            this.userName = userName;
+            this.passWord = passWord;
         }
-        public bool Login()
+
+        public bool checkAccount()
         {
-            
-
-
-            return true;
+            //db = new CMART1Entities();
+            //account = db.Accounts.Single(st=>st.Username==userName&&st.Password==passWord);
+            SqlConnection con = new SqlConnection("Data Source=cmu.vanlanguni.edu.vn;Initial Catalog=CMART1;User ID=cmart1;Password=dridrachoc");
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT Auth FROM Account WHERE Username='" + userName + "' AND Password='" + passWord + "'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            if (dt.Rows.Count >0)
+            {
+                dt.ToString();
+                return true;
+            }
+            else return false;
         }
     }
 }
