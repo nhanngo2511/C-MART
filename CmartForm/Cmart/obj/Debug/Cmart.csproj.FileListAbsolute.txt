@@ -1,0 +1,50 @@
+c:\users\anh nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\bin\Debug\Cmart.exe.config
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\bin\Debug\Cmart.exe
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\bin\Debug\Cmart.pdb
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.csprojResolveAssemblyReference.cache
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.C01_Login.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C02_Statistic.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C03_Bill.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C04_HeadImport.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C05_BranchImport.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C06_PriceHistory.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C07_Promotion.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C08_Product.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.Properties.Resources.resources
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.csproj.GenerateResource.Cache
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.exe
+C:\Users\Anh Nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\obj\Debug\Cmart.pdb
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\bin\Debug\Cmart.exe.config
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.exe
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.pdb
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\bin\Debug\Cmart.exe
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\bin\Debug\Cmart.pdb
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.csprojResolveAssemblyReference.cache
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.C01_Login.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C02_Statistic.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C03_Bill.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C04_HeadImport.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C05_BranchImport.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C06_PriceHistory.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C07_Promotion.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Cmart_GUI.C08_Product.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.Properties.Resources.resources
+C:\Users\phucm\Downloads\Compressed\Cmart\Cmart\obj\Debug\Cmart.csproj.GenerateResource.Cache
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\bin\Debug\Cmart.exe.config
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.exe
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.pdb
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.csprojResolveAssemblyReference.cache
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.C01_Login.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C02_Statistic.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C03_Bill.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C04_HeadImport.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C05_BranchImport.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C06_PriceHistory.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C07_Promotion.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Cmart_GUI.C08_Product.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.Properties.Resources.resources
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\obj\Debug\Cmart.csproj.GenerateResource.Cache
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\bin\Debug\Cmart.exe
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\bin\Debug\Cmart.pdb
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\bin\Debug\EntityFramework.dll
+C:\Users\Anh Nguyen\Desktop\CmartForm\Cmart\bin\Debug\EntityFramework.xml

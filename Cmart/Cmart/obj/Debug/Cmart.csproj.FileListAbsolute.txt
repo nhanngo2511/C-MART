@@ -1,1 +1,2 @@
 c:\users\anh nguyen\documents\visual studio 2015\Projects\Cmart\Cmart\bin\Debug\Cmart.exe.config
+C:\Users\Anh Nguyen\Documents\GitHub\C-MART\Cmart\Cmart\bin\Debug\Cmart.exe.config
