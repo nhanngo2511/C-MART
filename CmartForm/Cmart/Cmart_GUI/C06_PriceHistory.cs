@@ -13,9 +13,12 @@ namespace Cmart.Cmart_GUI
     public partial class C06_PriceHistory : Form
     {
         validation a = new validation();
-        public C06_PriceHistory()
+        public C06_PriceHistory(string name)
         {
             InitializeComponent();
+            label1.Text = name;
+            importManagementToolStripMenuItem.Visible = false;
+            billToolStripMenuItem.Visible = false;
         }
        
         private void btnSave_Click(object sender, EventArgs e)
@@ -56,7 +59,7 @@ namespace Cmart.Cmart_GUI
         private void productToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            C08_Product product = new C08_Product();
+            C08_Product product = new C08_Product(label1.Text);
             product.ShowDialog();
             this.Close();
         }
@@ -64,39 +67,30 @@ namespace Cmart.Cmart_GUI
         private void promotionToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            C07_Promotion promote = new C07_Promotion();
+            C07_Promotion promote = new C07_Promotion(label1.Text);
             promote.ShowDialog();
             this.Close();
         }
 
         private void headImportToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C04_HeadImport headImport = new C04_HeadImport();
-            headImport.ShowDialog();
-            this.Close();
+
         }
 
         private void branchImportToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C05_BranchImport branchImport = new C05_BranchImport();
-            branchImport.ShowDialog();
-            this.Close();
+   
         }
 
         private void billToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C03_Bill bill = new C03_Bill();
-            bill.ShowDialog();
-            this.Close();
+   
         }
 
         private void statisticToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            C02_Statistic statistic = new C02_Statistic();
+            C02_Statistic statistic = new C02_Statistic(label1.Text);
             statistic.ShowDialog();
             this.Close();
         }

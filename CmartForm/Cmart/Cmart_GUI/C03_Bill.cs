@@ -13,9 +13,14 @@ namespace Cmart.Cmart_GUI
     public partial class C03_Bill : Form
     {
         validation a = new validation();
-        public C03_Bill()
+        public C03_Bill(string name)
         {
             InitializeComponent();
+            lblName.Text = name;
+            importManagementToolStripMenuItem.Visible = false;
+            billToolStripMenuItem.Visible = false;
+            categoToolStripMenuItem.Visible = false;
+            statisticToolStripMenuItem.Visible = false;
         }
       
         private void btnAdd_Click(object sender, EventArgs e)
@@ -66,42 +71,27 @@ namespace Cmart.Cmart_GUI
 
         private void productToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C08_Product product = new C08_Product();
-            product.ShowDialog();
-            this.Close();
+      
         }
 
         private void promotionToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C07_Promotion promote = new C07_Promotion();
-            promote.ShowDialog();
-            this.Close();
+  
         }
 
         private void priceHistoryToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C06_PriceHistory pricehis = new C06_PriceHistory();
-            pricehis.ShowDialog();
-            this.Close();
+    
         }
 
         private void headImportToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C04_HeadImport headImport = new C04_HeadImport();
-            headImport.ShowDialog();
-            this.Close();
+  
         }
 
         private void branchImportToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C05_BranchImport branchImport = new C05_BranchImport();
-            branchImport.ShowDialog();
-            this.Close();
+         
         }
 
         private void billToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,10 +101,7 @@ namespace Cmart.Cmart_GUI
 
         private void statisticToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            C02_Statistic statistic = new C02_Statistic();
-            statistic.ShowDialog();
-            this.Close();
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

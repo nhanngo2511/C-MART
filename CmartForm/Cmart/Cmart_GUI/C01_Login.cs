@@ -7,31 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Cmart.BUS;
 using Cmart.Cmart_GUI;
 namespace Cmart
 {
     public partial class C01_Login : Form
     {
         validation a = new validation();
+        C01_LoginBUS login;
         public C01_Login()
         {
             InitializeComponent();
         }
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click_1(object sender, EventArgs e)
         {
             string message = null;
-            string UserName = "taikhoan";
-            string Password = "12345";
+            string UserName = txtName.Text;
+            string Password = txtSupplier.Text;
             if (!a.Required(txtName))
             {
                 message += "Name is a required field\n";
-            }
-            else
-            {
-                if (!a.Compare(txtName.Text.ToString(), UserName))
-                {
-                    message += "UserName is not exist\n";
-                }
             }
             if (!a.Required(txtSupplier))
             {
@@ -39,17 +34,45 @@ namespace Cmart
             }
             else
             {
-                if (!a.Compare(txtSupplier.Text.ToString(), Password))
+                login = new BUS.C01_LoginBUS(UserName);
+                var acc = login.FindAcc();
+                if (acc!=null)
                 {
-                    message += "Password is wrong\n ";
+                    if (!a.Compare(Password, login.getPassWord()))
+                    {
+                        message += "User or Password is wrong\n ";
+                    }
+                    else
+                    {
+                        this.Hide();
+                        int position = a.Compareposition(login.getPosition());
+                        if (position == 0)
+                        {
+                            Cmart_GUI.C08_Product product = new Cmart_GUI.C08_Product(login.getFullName());
+                            product.ShowDialog();
+                        }
+                        else if (position == 1)
+                        {
+                            Cmart_GUI.C04_HeadImport headImport = new Cmart_GUI.C04_HeadImport(login.getFullName());
+                            headImport.ShowDialog();
+                        }
+                        else if (position == 2)
+                        {
+                            Cmart_GUI.C03_Bill bill = new Cmart_GUI.C03_Bill(login.getFullName());
+                            bill.ShowDialog();
+                        }
+                        else if (position == 3)
+                        {
+                            Cmart_GUI.C05_BranchImport branch = new Cmart_GUI.C05_BranchImport(login.getFullName());
+                            branch.ShowDialog();
+                        }
+                        else if (position == 4)
+                        {
+                            MessageBox.Show("Now app is not been update any function for your position.");
+                        }
+                        this.Close();
+                    }
                 }
-            }
-            if (a.Compare(txtName.Text.ToString(), UserName) && a.Compare(txtSupplier.Text.ToString(), Password))
-            {
-                this.Hide();
-                C08_Product product = new C08_Product();
-                product.ShowDialog();
-                this.Close();
             }
             if (message != null)
             {

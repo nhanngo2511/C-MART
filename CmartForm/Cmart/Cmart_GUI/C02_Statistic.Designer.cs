@@ -83,20 +83,23 @@
             // productToolStripMenuItem
             // 
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.productToolStripMenuItem.Text = "Product";
+            this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
             // 
             // promotionToolStripMenuItem
             // 
             this.promotionToolStripMenuItem.Name = "promotionToolStripMenuItem";
-            this.promotionToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.promotionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.promotionToolStripMenuItem.Text = "Promotion";
+            this.promotionToolStripMenuItem.Click += new System.EventHandler(this.promotionToolStripMenuItem_Click);
             // 
             // priceHistoryToolStripMenuItem
             // 
             this.priceHistoryToolStripMenuItem.Name = "priceHistoryToolStripMenuItem";
-            this.priceHistoryToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.priceHistoryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.priceHistoryToolStripMenuItem.Text = "Price History";
+            this.priceHistoryToolStripMenuItem.Click += new System.EventHandler(this.priceHistoryToolStripMenuItem_Click);
             // 
             // importManagementToolStripMenuItem
             // 
